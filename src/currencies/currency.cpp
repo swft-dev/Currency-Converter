@@ -67,5 +67,5 @@ void currency(const std::string currency) {
     else if (curr == "swazi lilangeni") {}
     else if (curr == "south african rand") {}
     else if (curr == "ethiopian birr") {}
-    else if (curr == "falkland islands pound")
+    else if (curr == "falkland islands pound") {}
 }
