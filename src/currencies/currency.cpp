@@ -131,5 +131,15 @@ void currency(const std::string currency) {
     else if (curr == "norwegian krone") {}
     else if (curr == "omani rial") {}
     else if (curr == "pakistani rupee") {}
-    else if (curr == "")
+    else if (curr == "panamanian balboa") {}
+    else if (curr == "papua new guinean kina") {}
+    else if (curr == "paraguayan guaraní" || curr == "paraguayan guarani") {}
+    else if (curr == "peruvian sol") {}
+    else if (curr == "philippine peso") {}
+    else if (curr == "pitcairn islands dollar") {}
+    else if (curr == "polish złoty" || curr == "polish zloty") {}
+    else if (curr == "qatari riyal") {}
+    else if (curr == "romanian leu") {}
+    else if (curr == "rwandan franc") {}
+
 }
