@@ -68,4 +68,18 @@ void currency(const std::string currency) {
     else if (curr == "south african rand") {}
     else if (curr == "ethiopian birr") {}
     else if (curr == "falkland islands pound") {}
+    else if (curr == "sterling" || curr == "gbp" || curr == "pound") {}
+    else if (curr == "faroese króna" || curr == "faroese krona") {}
+    else if (curr == "fijian dollar") {}
+    else if (curr == "cfp franc") {}
+    else if (curr == "gambian dalasi") {}
+    else if (curr == "georgian lari") {}
+    else if (curr == "ghanaian cedi") {}
+    else if (curr == "gibraltar pound") {}
+    else if (curr == "guatemalan quetzal") {}
+    else if (curr == "guernsey pound") {}
+    else if (curr == "guinean franc") {}
+    else if (curr == "guyanese dollar") {}
+    
+
 }
