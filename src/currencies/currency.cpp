@@ -61,4 +61,7 @@ void currency(const std::string currency) {
     else if (curr == "czech koruna") {}
     else if (curr == "danish krone") {}
     else if (curr == "djiboutian franc") {}
+    else if (curr == "dominican peso") {}
+    else if (curr == "egyptian pound") {}
+    else if (curr == "eritrean nakfa")
 }
