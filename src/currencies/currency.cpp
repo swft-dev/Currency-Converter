@@ -141,5 +141,27 @@ void currency(const std::string currency) {
     else if (curr == "qatari riyal") {}
     else if (curr == "romanian leu") {}
     else if (curr == "rwandan franc") {}
-
+    else if (curr == "sahrawi peseta") {}
+    else if (curr == "saint helena pound") {}
+    else if (curr == "samoan tālā" || curr == "samoan tala") {}
+    else if (curr == "são tomé and príncipe dobra" || curr == "sao tome and principe dobra") {}
+    else if (curr == "saudi riyal") {}
+    else if (curr == "serbian dinar") {}
+    else if (curr == "seychellois rupee") {}
+    else if (curr == "sierra leonean leone") {}
+    else if (curr == "solomon islands dollar") {}
+    else if (curr == "somali shilling") {}
+    else if (curr == "somaliland shilling") {}
+    else if (curr == "south sudanese pound") {}
+    else if (curr == "sri lankan rupee") {}
+    else if (curr == "sudanese pound") {}
+    else if (curr == "surinamese dollar") {}
+    else if (curr == "swedish krona") {}
+    else if (curr == "syrian pound") {}
+    else if (curr == "new taiwan dollar") {}
+    else if (curr == "tajikistani somoni") {}
+    else if (curr == "tanzanian shilling") {}
+    else if (curr == "thai baht") {}
+    else if (curr == "tongan pa'anga") {}
+    
 }
