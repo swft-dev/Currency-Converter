@@ -1,29 +1,41 @@
 #include <iostream>
+#include <string>
+#include <algorithm>
+#include <cctype>
 #include "headers/currency.hpp"
 
+std::string lower(std::string str) {
+    std::transform(str.begin(), str.end(), str.begin(),
+        [](unsigned char c) { return std::tolower(c); });
+    return str;
+}
+
 void currency(const std::string currency) {
-    if (currency == "Russian ruble" || currency == "Russian Ruble") {}
-    else if (currency == "Afghan afgani" || currency == "Afghan Afgani") {}
-    else if (currency == "Euro" || currency == "euro") {}
-    else if (currency == "Albanian lek" || currency == "Albanian Lek") {}
-    else if (currency == "Algerian dinar" || currency == "Algerian Dinar") {}
-    else if (currency == "Angolan kwanza" || currency == "Angolan Kwanza") {}
-    else if (currency == "Eastern Caribbean dollar" || currency == "Eastern Caribbean Dollar") {}
-    else if (currency == "Argentine peso" || currency == "Argentine Peso") {}
-    else if (currency == "Armenian dram" || currency == "Armenian Dram") {}
-    else if (currency == "Aruban florin" || currency == "Aruban Florin") {}
-    else if (currency == "Saint Helena pound" || currency == "Saint Helena Pound") {}
-    else if (currency == "Australian dollar" || currency == "Australian Dollar") {}
-    else if (currency == "Azerbaijani manat" || currency == "Azerbaijani Manat") {}
-    else if (currency == "Bahamian dollar" || currency == "Bahamian Dollar") {}
-    else if (currency == "Bahraini dinar" || currency == "Bahraini Dinar") {}
-    else if (currency == "Bangladeshi taka" || currency == "Bangladeshi Taka") {}
-    else if (currency == "Barbadian dollar" || currency == "Barbadian Dollar") {}
-    else if (currency == "Belarusian ruble" || currency == "Belarusian Ruble") {}
-    else if (currency == "Belize dollar" || currency == "Belize Dollar") {}
-    else if (currency == "West African CFA franc" || currency == "West African CFA Franc") {}
-    else if (currency == "Bermudian dollar" || currency == "Bermudian Dollar") {}
-    else if (currency == "Bhutanese ngultrum" || currency == "Bhutanese Ngultrum") {}
-    else if (currency == "Indian rupee" || currency == "Indian Rupee") {}
-    else if (currency == "Bolivian boliviano" || currency == "Bolivian Boliviano") {}
+    std::string curr{lower(currency)};
+
+    if (curr == "russian ruble") {}
+    else if (curr == "afghan afgani") {}
+    else if (curr == "euro") {}
+    else if (curr == "albanian lek") {}
+    else if (curr == "algerian dinar") {}
+    else if (curr == "angolan kwanza") {}
+    else if (curr == "eastern caribbean dollar") {}
+    else if (curr == "argentine peso") {}
+    else if (curr == "armenian dram") {}
+    else if (curr == "aruban florin") {}
+    else if (curr == "saint helena pound") {}
+    else if (curr == "australian dollar") {}
+    else if (curr == "azerbaijani manat") {}
+    else if (curr == "bahamian dollar") {}
+    else if (curr == "bahraini dinar") {}
+    else if (curr == "bangladeshi taka") {}
+    else if (curr == "barbadian dollar") {}
+    else if (curr == "belarusian ruble") {}
+    else if (curr == "belize dollar") {}
+    else if (curr == "west african cfa franc") {}
+    else if (curr == "bermudian dollar") {}
+    else if (curr == "bhutanese ngultrum") {}
+    else if (curr == "indian rupee") {}
+    else if (curr == "bolivian boliviano") {}
+    else if (curr == "united states dollar") {}
 }
