@@ -12,5 +12,5 @@ int main() {
     << "================================\n"
     << "Type first language\n";
 
-
+    return 0;
 }
