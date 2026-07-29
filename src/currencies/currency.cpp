@@ -85,7 +85,15 @@ void currency(const std::string currency) {
     else if (curr == "honduran lempira") {}
     else if (curr == "hong kong dollar") {}
     else if (curr == "hungarian forint") {}
-    else if (curr == "icelandic króna" || curr == "icelandic krona")
-
-
+    else if (curr == "icelandic króna" || curr == "icelandic krona") {}
+    else if (curr == "indonesian rupiah") {}
+    else if (curr == "iranian rial") {}
+    else if (curr == "iraqi dinar") {}
+    else if (curr == "manx pound") {}
+    else if (curr == "israeli new shekel") {}
+    else if (curr == "jamaican dollar") {}
+    else if (curr == "japanese yen") {}
+    else if (curr == "jersey pound") {}
+    else if (curr == "jordanian dinar") {}
+    else if (curr == "kazakhstani tenge") {}
 }
