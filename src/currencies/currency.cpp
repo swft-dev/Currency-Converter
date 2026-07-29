@@ -38,4 +38,15 @@ void currency(const std::string currency) {
     else if (curr == "indian rupee") {}
     else if (curr == "bolivian boliviano") {}
     else if (curr == "united states dollar") {}
+    else if (curr == "bosnia and herzegovina convertible mark") {}
+    else if (curr == "botswana pula") {}
+    else if (curr == "brazilian real") {}
+    else if (curr == "brunei dollar") {}
+    else if (curr == "singapore dollar") {}
+    else if (curr == "burundian franc") {}
+    else if (curr == "cambodian riel") {}
+    else if (curr == "central african cfa franc") {}
+    else if (curr == "canadian dollar")
+
+
 }
