@@ -77,9 +77,15 @@ void currency(const std::string currency) {
     else if (curr == "ghanaian cedi") {}
     else if (curr == "gibraltar pound") {}
     else if (curr == "guatemalan quetzal") {}
+    else if (curr == "guatemalan quetzal") {}
     else if (curr == "guernsey pound") {}
     else if (curr == "guinean franc") {}
     else if (curr == "guyanese dollar") {}
-    
+    else if (curr == "haitian gourde") {}
+    else if (curr == "honduran lempira") {}
+    else if (curr == "hong kong dollar") {}
+    else if (curr == "hungarian forint") {}
+    else if (curr == "icelandic króna" || curr == "icelandic krona")
+
 
 }
