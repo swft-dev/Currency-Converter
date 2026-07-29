@@ -51,5 +51,6 @@ void currency(const std::string currency) {
     else if (curr == "cayman islands dollar") {}
     else if (curr == "chilean peso") {}
     else if (curr == "renminbi") {}
-    else if (curr == "colombian peso")
+    else if (curr == "colombian peso") {}
+    
 }
