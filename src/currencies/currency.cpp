@@ -96,4 +96,11 @@ void currency(const std::string currency) {
     else if (curr == "jersey pound") {}
     else if (curr == "jordanian dinar") {}
     else if (curr == "kazakhstani tenge") {}
+    else if (curr == "kenyan shilling") {}
+    else if (curr == "kiribati dollar") {}
+    else if (curr == "north korean won") {}
+    else if (curr == "south korean won") {}
+    else if (curr == "kuwaiti dinar") {}
+    else if (curr == "kyrgyz som")
+
 }
