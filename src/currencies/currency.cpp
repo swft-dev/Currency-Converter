@@ -52,5 +52,13 @@ void currency(const std::string currency) {
     else if (curr == "chilean peso") {}
     else if (curr == "renminbi") {}
     else if (curr == "colombian peso") {}
-    
+    else if (curr == "comorian franc") {}
+    else if (curr == "cook islands dollar") {}
+    else if (curr == "new zealand dollar") {}
+    else if (curr == "costa rican colón" || curr == "costa rican colon") {}
+    else if (curr == "cuban peso") {}
+    else if (curr == "caribbean guilder") {}
+    else if (curr == "czech koruna") {}
+    else if (curr == "danish krone") {}
+    else if (curr == "djiboutian franc") {}
 }
