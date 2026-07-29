@@ -46,7 +46,10 @@ void currency(const std::string currency) {
     else if (curr == "burundian franc") {}
     else if (curr == "cambodian riel") {}
     else if (curr == "central african cfa franc") {}
-    else if (curr == "canadian dollar")
-
-
+    else if (curr == "canadian dollar") {}
+    else if (curr == "cape verdean escudo") {}
+    else if (curr == "cayman islands dollar") {}
+    else if (curr == "chilean peso") {}
+    else if (curr == "renminbi") {}
+    else if (curr == "colombian peso")
 }
