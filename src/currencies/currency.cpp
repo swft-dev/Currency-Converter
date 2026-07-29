@@ -163,5 +163,21 @@ void currency(const std::string currency) {
     else if (curr == "tanzanian shilling") {}
     else if (curr == "thai baht") {}
     else if (curr == "tongan pa'anga") {}
-    
+    else if (curr == "transnistrian ruble") {}
+    else if (curr == "trinidad and tobago dollar") {}
+    else if (curr == "tunisian dinar") {}
+    else if (curr == "turkmenistani manat") {}
+    else if (curr == "tuvaluan dollar") {}
+    else if (curr == "ugandan shilling") {}
+    else if (curr == "ukrainian hryvnia") {}
+    else if (curr == "united arab emirates dirham") {}
+    else if (curr == "uruguayan peso") {}
+    else if (curr == "uzbekistani sum") {}
+    else if (curr == "vanuatu vatu") {}
+    else if (curr == "venezuelan sovereign bolívar" || curr == "venezuelan sovereign bolivar") {}
+    else if (curr == "venezuelan digital bolívar" || curr == "venezuelan digital bolivar") {}
+    else if (curr == "vietnamese đồng" || curr == "vietnamese dong") {}
+    else if (curr == "yemeni rial") {}
+    else if (curr == "zambian kwacha") {}
+    else if (curr == "zimbabwe gold") {}
 }
