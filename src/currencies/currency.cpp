@@ -19,4 +19,11 @@ void currency(const std::string currency) {
     else if (currency == "Bahraini dinar" || currency == "Bahraini Dinar") {}
     else if (currency == "Bangladeshi taka" || currency == "Bangladeshi Taka") {}
     else if (currency == "Barbadian dollar" || currency == "Barbadian Dollar") {}
+    else if (currency == "Belarusian ruble" || currency == "Belarusian Ruble") {}
+    else if (currency == "Belize dollar" || currency == "Belize Dollar") {}
+    else if (currency == "West African CFA franc" || currency == "West African CFA Franc") {}
+    else if (currency == "Bermudian dollar" || currency == "Bermudian Dollar") {}
+    else if (currency == "Bhutanese ngultrum" || currency == "Bhutanese Ngultrum") {}
+    else if (currency == "Indian rupee" || currency == "Indian Rupee") {}
+    else if (currency == "Bolivian boliviano" || currency == "Bolivian Boliviano") {}
 }
