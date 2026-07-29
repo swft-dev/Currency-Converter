@@ -101,6 +101,35 @@ void currency(const std::string currency) {
     else if (curr == "north korean won") {}
     else if (curr == "south korean won") {}
     else if (curr == "kuwaiti dinar") {}
-    else if (curr == "kyrgyz som")
-
+    else if (curr == "kyrgyz som") {}
+    else if (curr == "lao kip") {}
+    else if (curr == "lebanese pound") {}
+    else if (curr == "lesotho loti") {}
+    else if (curr == "liberian dollar") {}
+    else if (curr == "libyan dinar") {}
+    else if (curr == "swiss franc") {}
+    else if (curr == "macanese pataca") {}
+    else if (curr == "malagasy ariary") {}
+    else if (curr == "malawian kwacha") {}
+    else if (curr == "malaysian ringgit") {}
+    else if (curr == "maldivian rufiyaa") {}
+    else if (curr == "mauritanian ouguiya") {}
+    else if (curr == "mauritian rupee") {}
+    else if (curr == "mexican peso") {}
+    else if (curr == "moldovan leu") {}
+    else if (curr == "mongolian tögrög" || curr == "mongolian togrog") {}
+    else if (curr == "moroccan dirham") {}
+    else if (curr == "mozambican metical") {}
+    else if (curr == "burmese kyat") {}
+    else if (curr == "namibian dollar") {}
+    else if (curr == "nepalese rupee") {}
+    else if (curr == "nicaraguan córdoba" || curr == "nicaraguan cordoba") {}
+    else if (curr == "nigerian naira") {}
+    else if (curr == "niue dollar") {}
+    else if (curr == "macedonian denar") {}
+    else if (curr == "turkish lira") {}
+    else if (curr == "norwegian krone") {}
+    else if (curr == "omani rial") {}
+    else if (curr == "pakistani rupee") {}
+    else if (curr == "")
 }
