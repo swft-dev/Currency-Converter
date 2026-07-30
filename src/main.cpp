@@ -18,8 +18,10 @@ int main() {
     << "====== Currency Converter ======\n"
     << "================================\n"
     << "Type first currency\n>_";
-
     getline(cin, currency);
+    checkCurrency(currency, firstNum, secondNum);
+
+    cout << "Type first currency\n>_";
     checkCurrency(currency, firstNum, secondNum);
     return 0;
 }
