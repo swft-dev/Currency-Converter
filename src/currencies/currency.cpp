@@ -2,7 +2,7 @@
 #include <string>
 #include <algorithm>
 #include <cctype>
-#include "headers/currency.hpp"
+#include "currency.hpp"
 
 std::string lower(std::string str) {
     std::transform(str.begin(), str.end(), str.begin(),

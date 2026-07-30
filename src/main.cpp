@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-#include "headers/verify.hpp"
-#include "headers/currency.hpp"
+#include "verify.hpp"
+#include "currency.hpp"
 
 int main() {
     using std::cout;

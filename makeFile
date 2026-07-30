@@ -1,3 +1,0 @@
-all:
-	g++ -I src src/main.cpp src/verify.cpp src/currencies/currency.cpp -o src/main.exe
-	./src/main.exe
