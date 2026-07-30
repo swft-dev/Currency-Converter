@@ -1,6 +1,7 @@
 #include <iostream>
 #include "headers/verify.hpp"
+#include "headers/currency.hpp"
 
-void checkLanguage(const std::string currency) {
+void checkCurrency(const std::string currency) {
 
 }

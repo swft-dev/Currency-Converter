@@ -1,6 +1,6 @@
 #ifndef CURRENCY_HPP
 #define CURRENCY_HPP
 
-void currency
+void currencyCheck(const std::string currency);
 
 #endif
