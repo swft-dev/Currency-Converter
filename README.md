@@ -1,2 +1,3 @@
-## Currency converter in C++
-### This is hardcoded lmao
+# Currency Converter made in C++
+--- 
+### Hard coded, will refractor soon
