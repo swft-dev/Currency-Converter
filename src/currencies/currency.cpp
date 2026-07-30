@@ -3,7 +3,7 @@
 
 static const std::map<std::string, double> currencyRates = {
     {"russian ruble", 80.0},
-    {"afghan afgani", 71.0},
+    {"afghan afhani", 71.0},
     {"euro", 0.88},
     {"albanian lek", 92.5},
     {"algerian dinar", 134.0},
@@ -44,8 +44,10 @@ static const std::map<std::string, double> currencyRates = {
     {"comorian franc", 455.0},
     {"cook islands dollar", 1.73},
     {"new zealand dollar", 1.73},
-    {"costa rican colón", 525.0},
-    {"costa rican colon", 525.0},
+
+        {"costa rican colón", 525.0},
+        {"costa rican colon", 525.0},
+
     {"cuban peso", 24.0},
     {"caribbean guilder", 1.80},
     {"czech koruna", 21.2},
@@ -57,12 +59,15 @@ static const std::map<std::string, double> currencyRates = {
     {"swazi lilangeni", 16.8},
     {"south african rand", 16.8},
     {"ethiopian birr", 57.0},
-    {"falkland islands pound", 0.75},
-    {"sterling", 0.75},
-    {"gbp", 0.75},
-    {"pound", 0.75},
-    {"faroese króna", 6.56},
-    {"faroese krona", 6.56},
+
+        {"falkland islands pound", 0.75},
+        {"sterling", 0.75},
+        {"gbp", 0.75},
+        {"pound", 0.75},
+
+        {"faroese króna", 6.56},
+        {"faroese krona", 6.56},
+
     {"fijian dollar", 2.25},
     {"cfp franc", 110.0},
     {"gambian dalasi", 68.0},
@@ -77,8 +82,10 @@ static const std::map<std::string, double> currencyRates = {
     {"honduran lempira", 24.7},
     {"hong kong dollar", 7.84},
     {"hungarian forint", 318.0},
-    {"icelandic króna", 138.0},
-    {"icelandic krona", 138.0},
+
+        {"icelandic króna", 138.0},
+        {"icelandic krona", 138.0},
+    
     {"indonesian rupiah", 16200.0},
     {"iranian rial", 42000.0},
     {"iraqi dinar", 1310.0},
@@ -110,15 +117,19 @@ static const std::map<std::string, double> currencyRates = {
     {"mauritian rupee", 46.5},
     {"mexican peso", 17.4},
     {"moldovan leu", 17.8},
-    {"mongolian tögrög", 3450.0},
-    {"mongolian togrog", 3450.0},
+
+        {"mongolian tögrög", 3450.0},
+        {"mongolian togrog", 3450.0},
+
     {"moroccan dirham", 9.85},
     {"mozambican metical", 63.8},
     {"burmese kyat", 2100.0},
     {"namibian dollar", 16.8},
     {"nepalese rupee", 133.5},
-    {"nicaraguan córdoba", 36.8},
-    {"nicaraguan cordoba", 36.8},
+
+        {"nicaraguan córdoba", 36.8},
+        {"nicaraguan cordoba", 36.8},
+
     {"nigerian naira", 1500.0},
     {"niue dollar", 1.73},
     {"macedonian denar", 55.5},
@@ -128,21 +139,28 @@ static const std::map<std::string, double> currencyRates = {
     {"pakistani rupee", 277.7},
     {"panamanian balboa", 1.0},
     {"papua new guinean kina", 3.90},
-    {"paraguayan guaraní", 7550.0},
-    {"paraguayan guarani", 7550.0},
-    {"peruvian sol", 3.75},
-    {"philippine peso", 58.5},
-    {"pitcairn islands dollar", 1.73},
-    {"polish złoty", 3.80},
-    {"polish zloty", 3.80},
+
+        {"paraguayan guaraní", 7550.0},
+        {"paraguayan guarani", 7550.0},
+
+        {"peruvian sol", 3.75},
+        {"philippine peso", 58.5},
+        {"pitcairn islands dollar", 1.73},
+
+        {"polish złoty", 3.80},
+        {"polish zloty", 3.80},
+
     {"qatari riyal", 3.64},
     {"romanian leu", 4.58},
     {"rwandan franc", 1310.0},
     {"sahrawi peseta", 166.0},
-    {"samoan tālā", 2.75},
-    {"samoan tala", 2.75},
-    {"são tomé and príncipe dobra", 22.5},
-    {"sao tome and principe dobra", 22.5},
+
+        {"samoan tālā", 2.75},
+        {"samoan tala", 2.75},
+
+        {"são tomé and príncipe dobra", 22.5},
+        {"sao tome and principe dobra", 22.5},
+
     {"saudi riyal", 3.75},
     {"serbian dinar", 107.0},
     {"seychellois rupee", 13.5},
@@ -172,12 +190,16 @@ static const std::map<std::string, double> currencyRates = {
     {"uruguayan peso", 39.5},
     {"uzbekistani sum", 12600.0},
     {"vanuatu vatu", 120.0},
-    {"venezuelan sovereign bolívar", 36.5},
-    {"venezuelan sovereign bolivar", 36.5},
-    {"venezuelan digital bolívar", 36.5},
-    {"venezuelan digital bolivar", 36.5},
-    {"vietnamese đồng", 25400.0},
-    {"vietnamese dong", 25400.0},
+
+        {"venezuelan sovereign bolívar", 36.5},
+        {"venezuelan sovereign bolivar", 36.5},
+
+        {"venezuelan digital bolívar", 36.5},
+        {"venezuelan digital bolivar", 36.5},
+
+        {"vietnamese đồng", 25400.0},
+        {"vietnamese dong", 25400.0},
+
     {"yemeni rial", 250.0},
     {"zambian kwacha", 26.0},
     {"zimbabwe gold", 13.8}
