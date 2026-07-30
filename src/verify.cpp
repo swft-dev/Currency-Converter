@@ -8,9 +8,9 @@ void checkCurrency(const std::string currency, double numOne, double numTwo) {
 		temp ++;
 		currencyCheck(currency, numOne);
 		if (numOne >= 0.000) {
-
+			std::cout << "Currency Found\n";
 		} else {
-			
+
 		}
 	} else {
 
