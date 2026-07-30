@@ -10,7 +10,7 @@ int main() {
     using std::string;
     
     string currency{};
-    double firstNum{};
+    double firstNum{}, secondNum{};
 
     cout 
     << "Type 'help' for more information\n"
@@ -20,6 +20,6 @@ int main() {
     << "Type first currency\n>_";
 
     getline(cin, currency);
-    checkCurrency(currency);
+    checkCurrency(currency, firstNum, secondNum);
     return 0;
 }
