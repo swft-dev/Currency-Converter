@@ -1,183 +1,184 @@
-#include <iostream>
+#include <map>
 #include <string>
-#include <algorithm>
-#include <cctype>
-#include "currency.hpp"
 
-std::string lower(std::string str) {
-    std::transform(str.begin(), str.end(), str.begin(),
-        [](unsigned char c) { return std::tolower(c); });
-    return str;
-}
-
-void currencyCheck(const std::string currency, double& num) {
-    std::string curr{lower(currency)};
-
-    if (curr == "russian ruble") {}
-    else if (curr == "afghan afgani") {}
-    else if (curr == "euro") {}
-    else if (curr == "albanian lek") {}
-    else if (curr == "algerian dinar") {}
-    else if (curr == "angolan kwanza") {}
-    else if (curr == "eastern caribbean dollar") {}
-    else if (curr == "argentine peso") {}
-    else if (curr == "armenian dram") {}
-    else if (curr == "aruban florin") {}
-    else if (curr == "saint helena pound") {}
-    else if (curr == "australian dollar") {}
-    else if (curr == "azerbaijani manat") {}
-    else if (curr == "bahamian dollar") {}
-    else if (curr == "bahraini dinar") {}
-    else if (curr == "bangladeshi taka") {}
-    else if (curr == "barbadian dollar") {}
-    else if (curr == "belarusian ruble") {}
-    else if (curr == "belize dollar") {}
-    else if (curr == "west african cfa franc") {}
-    else if (curr == "bermudian dollar") {}
-    else if (curr == "bhutanese ngultrum") {}
-    else if (curr == "indian rupee") {}
-    else if (curr == "bolivian boliviano") {}
-    else if (curr == "united states dollar") {}
-    else if (curr == "bosnia and herzegovina convertible mark") {}
-    else if (curr == "botswana pula") {}
-    else if (curr == "brazilian real") {}
-    else if (curr == "brunei dollar") {}
-    else if (curr == "singapore dollar") {}
-    else if (curr == "burundian franc") {}
-    else if (curr == "cambodian riel") {}
-    else if (curr == "central african cfa franc") {}
-    else if (curr == "canadian dollar") {}
-    else if (curr == "cape verdean escudo") {}
-    else if (curr == "cayman islands dollar") {}
-    else if (curr == "chilean peso") {}
-    else if (curr == "renminbi") {}
-    else if (curr == "colombian peso") {}
-    else if (curr == "comorian franc") {}
-    else if (curr == "cook islands dollar") {}
-    else if (curr == "new zealand dollar") {}
-    else if (curr == "costa rican colón" || curr == "costa rican colon") {}
-    else if (curr == "cuban peso") {}
-    else if (curr == "caribbean guilder") {}
-    else if (curr == "czech koruna") {}
-    else if (curr == "danish krone") {}
-    else if (curr == "djiboutian franc") {}
-    else if (curr == "dominican peso") {}
-    else if (curr == "egyptian pound") {}
-    else if (curr == "eritrean nakfa") {}
-    else if (curr == "swazi lilangeni") {}
-    else if (curr == "south african rand") {}
-    else if (curr == "ethiopian birr") {}
-    else if (curr == "falkland islands pound") {}
-    else if (curr == "sterling" || curr == "gbp" || curr == "pound") {}
-    else if (curr == "faroese króna" || curr == "faroese krona") {}
-    else if (curr == "fijian dollar") {}
-    else if (curr == "cfp franc") {}
-    else if (curr == "gambian dalasi") {}
-    else if (curr == "georgian lari") {}
-    else if (curr == "ghanaian cedi") {}
-    else if (curr == "gibraltar pound") {}
-    else if (curr == "guatemalan quetzal") {}
-    else if (curr == "guatemalan quetzal") {}
-    else if (curr == "guernsey pound") {}
-    else if (curr == "guinean franc") {}
-    else if (curr == "guyanese dollar") {}
-    else if (curr == "haitian gourde") {}
-    else if (curr == "honduran lempira") {}
-    else if (curr == "hong kong dollar") {}
-    else if (curr == "hungarian forint") {}
-    else if (curr == "icelandic króna" || curr == "icelandic krona") {}
-    else if (curr == "indonesian rupiah") {}
-    else if (curr == "iranian rial") {}
-    else if (curr == "iraqi dinar") {}
-    else if (curr == "manx pound") {}
-    else if (curr == "israeli new shekel") {}
-    else if (curr == "jamaican dollar") {}
-    else if (curr == "japanese yen") {}
-    else if (curr == "jersey pound") {}
-    else if (curr == "jordanian dinar") {}
-    else if (curr == "kazakhstani tenge") {}
-    else if (curr == "kenyan shilling") {}
-    else if (curr == "kiribati dollar") {}
-    else if (curr == "north korean won") {}
-    else if (curr == "south korean won") {}
-    else if (curr == "kuwaiti dinar") {}
-    else if (curr == "kyrgyz som") {}
-    else if (curr == "lao kip") {}
-    else if (curr == "lebanese pound") {}
-    else if (curr == "lesotho loti") {}
-    else if (curr == "liberian dollar") {}
-    else if (curr == "libyan dinar") {}
-    else if (curr == "swiss franc") {}
-    else if (curr == "macanese pataca") {}
-    else if (curr == "malagasy ariary") {}
-    else if (curr == "malawian kwacha") {}
-    else if (curr == "malaysian ringgit") {}
-    else if (curr == "maldivian rufiyaa") {}
-    else if (curr == "mauritanian ouguiya") {}
-    else if (curr == "mauritian rupee") {}
-    else if (curr == "mexican peso") {}
-    else if (curr == "moldovan leu") {}
-    else if (curr == "mongolian tögrög" || curr == "mongolian togrog") {}
-    else if (curr == "moroccan dirham") {}
-    else if (curr == "mozambican metical") {}
-    else if (curr == "burmese kyat") {}
-    else if (curr == "namibian dollar") {}
-    else if (curr == "nepalese rupee") {}
-    else if (curr == "nicaraguan córdoba" || curr == "nicaraguan cordoba") {}
-    else if (curr == "nigerian naira") {}
-    else if (curr == "niue dollar") {}
-    else if (curr == "macedonian denar") {}
-    else if (curr == "turkish lira") {}
-    else if (curr == "norwegian krone") {}
-    else if (curr == "omani rial") {}
-    else if (curr == "pakistani rupee") {}
-    else if (curr == "panamanian balboa") {}
-    else if (curr == "papua new guinean kina") {}
-    else if (curr == "paraguayan guaraní" || curr == "paraguayan guarani") {}
-    else if (curr == "peruvian sol") {}
-    else if (curr == "philippine peso") {}
-    else if (curr == "pitcairn islands dollar") {}
-    else if (curr == "polish złoty" || curr == "polish zloty") {}
-    else if (curr == "qatari riyal") {}
-    else if (curr == "romanian leu") {}
-    else if (curr == "rwandan franc") {}
-    else if (curr == "sahrawi peseta") {}
-    else if (curr == "saint helena pound") {}
-    else if (curr == "samoan tālā" || curr == "samoan tala") {}
-    else if (curr == "são tomé and príncipe dobra" || curr == "sao tome and principe dobra") {}
-    else if (curr == "saudi riyal") {}
-    else if (curr == "serbian dinar") {}
-    else if (curr == "seychellois rupee") {}
-    else if (curr == "sierra leonean leone") {}
-    else if (curr == "solomon islands dollar") {}
-    else if (curr == "somali shilling") {}
-    else if (curr == "somaliland shilling") {}
-    else if (curr == "south sudanese pound") {}
-    else if (curr == "sri lankan rupee") {}
-    else if (curr == "sudanese pound") {}
-    else if (curr == "surinamese dollar") {}
-    else if (curr == "swedish krona") {}
-    else if (curr == "syrian pound") {}
-    else if (curr == "new taiwan dollar") {}
-    else if (curr == "tajikistani somoni") {}
-    else if (curr == "tanzanian shilling") {}
-    else if (curr == "thai baht") {}
-    else if (curr == "tongan pa'anga") {}
-    else if (curr == "transnistrian ruble") {}
-    else if (curr == "trinidad and tobago dollar") {}
-    else if (curr == "tunisian dinar") {}
-    else if (curr == "turkmenistani manat") {}
-    else if (curr == "tuvaluan dollar") {}
-    else if (curr == "ugandan shilling") {}
-    else if (curr == "ukrainian hryvnia") {}
-    else if (curr == "united arab emirates dirham") {}
-    else if (curr == "uruguayan peso") {}
-    else if (curr == "uzbekistani sum") {}
-    else if (curr == "vanuatu vatu") {}
-    else if (curr == "venezuelan sovereign bolívar" || curr == "venezuelan sovereign bolivar") {}
-    else if (curr == "venezuelan digital bolívar" || curr == "venezuelan digital bolivar") {}
-    else if (curr == "vietnamese đồng" || curr == "vietnamese dong") {}
-    else if (curr == "yemeni rial") {}
-    else if (curr == "zambian kwacha") {}
-    else if (curr == "zimbabwe gold") {}
-}
+static const std::map<std::string, double> currencyRates = {
+    {"russian ruble", 80.0},
+    {"afghan afgani", 71.0},
+    {"euro", 0.88},
+    {"albanian lek", 92.5},
+    {"algerian dinar", 134.0},
+    {"angolan kwanza", 850.0},
+    {"eastern caribbean dollar", 2.70},
+    {"argentine peso", 930.0},
+    {"armenian dram", 388.0},
+    {"aruban florin", 1.80},
+    {"saint helena pound", 0.75},
+    {"australian dollar", 1.44},
+    {"azerbaijani manat", 1.70},
+    {"bahamian dollar", 1.0},
+    {"bahraini dinar", 0.376},
+    {"bangladeshi taka", 117.5},
+    {"barbadian dollar", 2.0},
+    {"belarusian ruble", 3.27},
+    {"belize dollar", 2.0},
+    {"west african cfa franc", 605.0},
+    {"bermudian dollar", 1.0},
+    {"bhutanese ngultrum", 83.5},
+    {"indian rupee", 83.5},
+    {"bolivian boliviano", 6.91},
+    {"united states dollar", 1.0},
+    {"bosnia and herzegovina convertible mark", 1.80},
+    {"botswana pula", 13.6},
+    {"brazilian real", 5.14},
+    {"brunei dollar", 1.29},
+    {"singapore dollar", 1.29},
+    {"burundian franc", 2870.0},
+    {"cambodian riel", 4100.0},
+    {"central african cfa franc", 605.0},
+    {"canadian dollar", 1.40},
+    {"cape verdean escudo", 102.5},
+    {"cayman islands dollar", 0.83},
+    {"chilean peso", 928.0},
+    {"renminbi", 6.77},
+    {"colombian peso", 3900.0},
+    {"comorian franc", 455.0},
+    {"cook islands dollar", 1.73},
+    {"new zealand dollar", 1.73},
+    {"costa rican colón", 525.0},
+    {"costa rican colon", 525.0},
+    {"cuban peso", 24.0},
+    {"caribbean guilder", 1.80},
+    {"czech koruna", 21.2},
+    {"danish krone", 6.56},
+    {"djiboutian franc", 177.7},
+    {"dominican peso", 59.0},
+    {"egyptian pound", 48.0},
+    {"eritrean nakfa", 15.0},
+    {"swazi lilangeni", 16.8},
+    {"south african rand", 16.8},
+    {"ethiopian birr", 57.0},
+    {"falkland islands pound", 0.75},
+    {"sterling", 0.75},
+    {"gbp", 0.75},
+    {"pound", 0.75},
+    {"faroese króna", 6.56},
+    {"faroese krona", 6.56},
+    {"fijian dollar", 2.25},
+    {"cfp franc", 110.0},
+    {"gambian dalasi", 68.0},
+    {"georgian lari", 2.70},
+    {"ghanaian cedi", 15.0},
+    {"gibraltar pound", 0.75},
+    {"guatemalan quetzal", 7.75},
+    {"guernsey pound", 0.75},
+    {"guinean franc", 8600.0},
+    {"guyanese dollar", 209.0},
+    {"haitian gourde", 132.0},
+    {"honduran lempira", 24.7},
+    {"hong kong dollar", 7.84},
+    {"hungarian forint", 318.0},
+    {"icelandic króna", 138.0},
+    {"icelandic krona", 138.0},
+    {"indonesian rupiah", 16200.0},
+    {"iranian rial", 42000.0},
+    {"iraqi dinar", 1310.0},
+    {"manx pound", 0.75},
+    {"israeli new shekel", 3.08},
+    {"jamaican dollar", 156.0},
+    {"japanese yen", 163.8},
+    {"jersey pound", 0.75},
+    {"jordanian dinar", 0.71},
+    {"kazakhstani tenge", 475.0},
+    {"kenyan shilling", 129.0},
+    {"kiribati dollar", 1.44},
+    {"north korean won", 900.0},
+    {"south korean won", 1452.0},
+    {"kuwaiti dinar", 0.31},
+    {"kyrgyz som", 87.5},
+    {"lao kip", 22000.0},
+    {"lebanese pound", 89500.0},
+    {"lesotho loti", 16.8},
+    {"liberian dollar", 194.0},
+    {"libyan dinar", 4.85},
+    {"swiss franc", 0.82},
+    {"macanese pataca", 8.08},
+    {"malagasy ariary", 4500.0},
+    {"malawian kwacha", 1730.0},
+    {"malaysian ringgit", 4.09},
+    {"maldivian rufiyaa", 15.4},
+    {"mauritanian ouguiya", 39.5},
+    {"mauritian rupee", 46.5},
+    {"mexican peso", 17.4},
+    {"moldovan leu", 17.8},
+    {"mongolian tögrög", 3450.0},
+    {"mongolian togrog", 3450.0},
+    {"moroccan dirham", 9.85},
+    {"mozambican metical", 63.8},
+    {"burmese kyat", 2100.0},
+    {"namibian dollar", 16.8},
+    {"nepalese rupee", 133.5},
+    {"nicaraguan córdoba", 36.8},
+    {"nicaraguan cordoba", 36.8},
+    {"nigerian naira", 1500.0},
+    {"niue dollar", 1.73},
+    {"macedonian denar", 55.5},
+    {"turkish lira", 47.4},
+    {"norwegian krone", 9.66},
+    {"omani rial", 0.385},
+    {"pakistani rupee", 277.7},
+    {"panamanian balboa", 1.0},
+    {"papua new guinean kina", 3.90},
+    {"paraguayan guaraní", 7550.0},
+    {"paraguayan guarani", 7550.0},
+    {"peruvian sol", 3.75},
+    {"philippine peso", 58.5},
+    {"pitcairn islands dollar", 1.73},
+    {"polish złoty", 3.80},
+    {"polish zloty", 3.80},
+    {"qatari riyal", 3.64},
+    {"romanian leu", 4.58},
+    {"rwandan franc", 1310.0},
+    {"sahrawi peseta", 166.0},
+    {"samoan tālā", 2.75},
+    {"samoan tala", 2.75},
+    {"são tomé and príncipe dobra", 22.5},
+    {"sao tome and principe dobra", 22.5},
+    {"saudi riyal", 3.75},
+    {"serbian dinar", 107.0},
+    {"seychellois rupee", 13.5},
+    {"sierra leonean leone", 22.5},
+    {"solomon islands dollar", 8.50},
+    {"somali shilling", 570.0},
+    {"somaliland shilling", 8500.0},
+    {"south sudanese pound", 1550.0},
+    {"sri lankan rupee", 302.0},
+    {"sudanese pound", 600.0},
+    {"surinamese dollar", 31.5},
+    {"swedish krona", 9.72},
+    {"syrian pound", 13000.0},
+    {"new taiwan dollar", 32.4},
+    {"tajikistani somoni", 10.7},
+    {"tanzanian shilling", 2650.0},
+    {"thai baht", 33.5},
+    {"tongan pa'anga", 2.35},
+    {"transnistrian ruble", 16.1},
+    {"trinidad and tobago dollar", 6.75},
+    {"tunisian dinar", 3.12},
+    {"turkmenistani manat", 3.50},
+    {"tuvaluan dollar", 1.44},
+    {"ugandan shilling", 3700.0},
+    {"ukrainian hryvnia", 41.0},
+    {"united arab emirates dirham", 3.67},
+    {"uruguayan peso", 39.5},
+    {"uzbekistani sum", 12600.0},
+    {"vanuatu vatu", 120.0},
+    {"venezuelan sovereign bolívar", 36.5},
+    {"venezuelan sovereign bolivar", 36.5},
+    {"venezuelan digital bolívar", 36.5},
+    {"venezuelan digital bolivar", 36.5},
+    {"vietnamese đồng", 25400.0},
+    {"vietnamese dong", 25400.0},
+    {"yemeni rial", 250.0},
+    {"zambian kwacha", 26.0},
+    {"zimbabwe gold", 13.8}
+};
