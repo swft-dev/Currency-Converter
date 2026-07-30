@@ -10,7 +10,7 @@ std::string lower(std::string str) {
     return str;
 }
 
-void currencyCheck(const std::string currency) {
+void currencyCheck(const std::string currency, double& num) {
     std::string curr{lower(currency)};
 
     if (curr == "russian ruble") {}
