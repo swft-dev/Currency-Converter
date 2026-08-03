@@ -1,2 +1,1 @@
-# Currency Converter made in C++
-
+# *Currency Converter made in C++*
