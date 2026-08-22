@@ -13,11 +13,11 @@ int main() {
     double firstNum{}, secondNum{};
 
     cout 
-    << "Type 'help' for more information\n"
-    << "================================\n"
-    << "====== Currency Converter ======\n"
-    << "================================\n"
-    << "Type first currency\n>_";
+        << "Type 'help' for more information\n"
+        << "================================\n"
+        << "====== Currency Converter ======\n"
+        << "================================\n"
+        << "Type first currency\n>_";
     getline(cin, currency);
     checkCurrency(currency, firstNum, secondNum);
 
